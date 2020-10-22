@@ -3,7 +3,7 @@ let cardT = ["hearts", "spades", "clubs", "#9830"]
 
 let r = (arr) => Math.floor(Math.random() * arr.length)
 
-console.log(cardN[r(cardN)] + " " + cardT[r(cardT)]) 
+// console.log(cardN[r(cardN)] + " " + cardT[r(cardT)]) 
 
 window.onload = function(){
     let randomN = cardN[r(cardN)]
