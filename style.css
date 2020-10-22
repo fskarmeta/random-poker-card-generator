@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    background-color: #35654d;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+
+
+.card {
+    background-color: floralwhite;
+    height: 420px;
+    border-radius: 20px;
+
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.top,
+.bot {
+    height: 33%;
+}
+
+.middle {
+    height: 33%;
+}
+
+.number {
+    position: absolute;
+    top: -14%;
+    margin: 0;
+    font-size: 7.5rem;
+    font-weight: bold;
+}
+.icon {
+    font-size:6rem;
+}
+
+
+
+.red {
+    color: red;
+}
+
+#icon1 {
+    position: absolute;
+    top: -8%;
+}
+
+#icon2 {
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+    top: 18%;
+}
